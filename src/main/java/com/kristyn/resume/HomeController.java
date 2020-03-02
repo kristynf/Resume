@@ -13,7 +13,7 @@ public class HomeController {
         return "index";
     }
 
-    @GetMapping("favicon.ico")
+    @GetMapping("/favicon.ico")
     @ResponseBody
     void returnNoFavicon() {
     }
